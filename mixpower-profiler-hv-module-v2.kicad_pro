@@ -571,6 +571,10 @@
       {
         "netclass": "MidPower3A",
         "pattern": "/5V_IN"
+      },
+      {
+        "netclass": "HighPower5A",
+        "pattern": "/VIN_P_IN"
       }
     ]
   },
@@ -698,7 +702,7 @@
       "workbook_filename": "mixpower-profiler-module.wbk"
     },
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "production/schematics/",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
