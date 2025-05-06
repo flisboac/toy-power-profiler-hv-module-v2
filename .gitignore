@@ -1,0 +1,6 @@
+*.log
+build/
+*-backups/
+*-bak
+*.bak
+*.zip
